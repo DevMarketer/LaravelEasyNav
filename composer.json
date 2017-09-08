@@ -1,0 +1,42 @@
+{
+    "name": "devmarketer/easynav",
+    "description": "Making managing navigation in Laravel easy.",
+    "keywords": ["nav", "easy", "laravel", "easynav", "helpers", "active"],
+    "license": "MIT",
+    "homepage": "https://github.com/DevMarketer/LaravelEasyNav",
+    "support": {
+        "issues": "https://github.com/DevMarketer/LaravelEasyNav/issues",
+        "source": "https://github.com/DevMarketer/LaravelEasyNav"
+    },
+    "authors": [
+        {
+            "name": "J. Alexander Curtis",
+            "email": "jalexandercurtis@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "4.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "DevMarketer\\EasyNav": "src/"
+        },
+        "files": [
+            "src/DevMarketer/EasyNav/functions.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevMarketer\\EasyNav\\EasyNavServiceProvider"
+            ],
+            "aliases": {
+                "Nav": "DevMarketer\\EasyNav\\EasyNavFacade"
+            }
+        }
+    }
+}
