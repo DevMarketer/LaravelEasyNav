@@ -303,11 +303,11 @@ This works exactly the same as `Nav::hasSegment()`. See the documentation above 
 
 #### `navIsRoute($routeName, $activeClass)`
 
-This works exactly the same as `Nav::hasSegment()`. See the documentation above about how to use it.
+This works exactly the same as `Nav::isRoute()`. See the documentation above about how to use it.
 
 #### `navIsResource($resource, $prefix, $activeClass, $strictMode)`
 
-This works exactly the same as `Nav::hasSegment()`. See the documentation above about how to use it.
+This works exactly the same as `Nav::isResource()`. See the documentation above about how to use it.
 
 _Note: there is no helper function for the Nav::urlDoesContain() method. This method is too dangerous to be thrown around with a helper function._
 
