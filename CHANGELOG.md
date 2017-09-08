@@ -4,6 +4,12 @@ All features, bug fixes, and changes in the code base will be updated and docume
 
 ## Version 1: Official Release
 
+##### 1.0.1
+
+**Fixes:**
+
+1. Merge config files so that users do not have to export the config if they do not want to.
+
 ##### 1.0.0
 
 This update was focused on the core of EasyNav package. This builds out the basic functions of EasyNav and how it works. It provides a basic facade to access various helpful functions focused around returning a specified class name based on the current page the user is on.

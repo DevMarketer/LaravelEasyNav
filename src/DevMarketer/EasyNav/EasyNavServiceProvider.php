@@ -33,6 +33,9 @@ class EasyNavServiceProvider extends ServiceProvider
      */
     public function register()
     {
+			$this->mergeConfigFrom(
+        __DIR__.'/../../config/easynav.php', 'easynav'
+	    );
       $this->app->bind('easynav', function($app)
       {
         return $this->app->make('DevMarketer\EasyNav\EasyNav');
