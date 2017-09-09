@@ -4,11 +4,13 @@ All features, bug fixes, and changes in the code base will be updated and docume
 
 ## Version 1: Official Release
 
-##### 1.0.1
+##### 1.0.1 - 1.0.3
 
 **Fixes:**
 
-1. Merge config files so that users do not have to export the config if they do not want to.
+1. (1.0.3) - Removed problematic feature allowing you to selectively enable helper functions. This will be removed until I can find a better way to do it.
+1. (1.0.2) - Fixed typos in config files
+1. (1.0.1) - Merge config files so that users do not have to export the config if they do not want to.
 
 ##### 1.0.0
 

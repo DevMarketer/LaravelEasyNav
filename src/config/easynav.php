@@ -19,15 +19,4 @@ return [
     */
     'default_class' => 'is-active',
 
-
-		/*
-    |--------------------------------------------------------------------------
-    | Enable Helper Functions
-    |--------------------------------------------------------------------------
-    |
-    | Set to false if you do not want to load helper functions (functions that
-		|  do not use the Nav facade);
-    |
-    */
-		'enable_helper_functions' => true,
 ];
