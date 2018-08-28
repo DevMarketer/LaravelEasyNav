@@ -77,7 +77,7 @@ Current Url - https://domain.com/posts/laravel-is-awesome
 		<li class="{{ Nav::isRoute('home') }}">Home</li>
 		<li class="{{ Nav::isResource('posts') }}">Posts</li> 				// This one will render a class of "active" to the <li></li>
 		<li class="{{ Nav::hasSegment('about')}}">About</li>
-		<li class="{{ Nav::urlContains('contact') }}">Contact</li>
+		<li class="{{ Nav::urlDoesContain('contact') }}">Contact</li>
 	</ul>
 </nav>
 ```
