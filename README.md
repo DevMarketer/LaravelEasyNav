@@ -278,11 +278,11 @@ If set to **TRUE**, strict mode will be enabled, requiring that the search from 
 Current Url - https://domain.com/about/devmarketer/edit
 ---
 
-{{ Nav::hasSegment('about') }}																// returns "active" [1]
-{{ Nav::hasSegment('devm', 'open') }}													// returns "open" [2]
-{{ Nav::hasSegment('devmarketer', 'active', TRUE) }} 					// returns "" [3]
-{{ Nav::hasSegment('about/devmarketer', NULL, TRUE) }} 				// returns "active" [4]
-{{ Nav::hasSegment('about', NULL, TRUE) }}										// returns "" [5]
+{{ Nav::urlDoesContain('about') }}																// returns "active" [1]
+{{ Nav::urlDoesContain('devm', 'open') }}													// returns "open" [2]
+{{ Nav::urlDoesContain('devmarketer', 'active', TRUE) }} 					// returns "" [3]
+{{ Nav::urlDoesContain('about/devmarketer', NULL, TRUE) }} 				// returns "active" [4]
+{{ Nav::urlDoesContain('about', NULL, TRUE) }}										// returns "active" [5]
 ```
 
 (1) "about" is contained in the URL, so returns as active  
